@@ -1,0 +1,22 @@
+		case "1":
+			System.out.println("toplamak istediginiz iki sayiyi giriniz: ");
+			int s1 = scanner.nextInt();
+			int s2 = scanner.nextInt();
+			System.out.println(s1+s2);
+			break;
+		case "2":
+			System.out.println("Cikarmak istediginiz iki sayiyi giriniz: ");
+			int s3 = scanner.nextInt();
+			int s4 = scanner.nextInt();
+			System.out.println(s3-s4);
+		case "3":
+			System.out.println("Carpmak istediginiz iki sayiyi giriniz: ");
+			int s5 = scanner.nextInt();
+			int s6 = scanner.nextInt();
+			System.out.println(s5*s6);
+		case "4":
+			System.out.println("Bolmek istediginiz iki sayiyi giriniz: ");
+			int s7 = scanner.nextInt();
+			int s8 = scanner.nextInt();
+			System.out.println(s7/s8);
+		}

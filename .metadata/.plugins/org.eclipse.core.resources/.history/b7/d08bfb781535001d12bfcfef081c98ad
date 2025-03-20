@@ -1,0 +1,14 @@
+package deneme;
+
+public class yonetici extends calisan{
+	private int personelSayi;
+public yonetici(String ad,String soyad,int mas,int personelSayi) {
+super(ad,soyad,mas);
+this.personelSayi = personelSayi;
+}
+public void bilgilerigoster() {
+	super.bilgiler();
+	System.out.println("Personel sayisi: "+personelSayi);
+
+}
+}

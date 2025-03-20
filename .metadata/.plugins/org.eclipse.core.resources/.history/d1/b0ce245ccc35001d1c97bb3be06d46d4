@@ -1,0 +1,19 @@
+package deneme;
+
+public class kopek extends hayvan{
+	private int dis; 
+public kopek(String ad,int bsayi,String cins,int dis) {
+	super(ad,bsayi,cins);
+	this.setDis(dis);
+}
+public void kos(int koss) {
+	System.out.println("kopek "+koss+" kosyor");
+	hareket(koss);
+}
+public int getDis() {
+	return dis;
+}
+public void setDis(int dis) {
+	this.dis = dis;
+}
+}

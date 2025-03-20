@@ -1,0 +1,12 @@
+package deneme;
+
+public class main {
+
+	public static void main(String[] args) {
+hayvan hhyavanHayvan = new hayvan("maymin",4,"fare");
+kopek kkKopek = new kopek("comar",4,"aslan",32);
+kkKopek.kos(100);
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package deneme;
+
+public class yonetici extends calisan{
+	private int personelSayi;
+public yonetici(String ad,String soyad,int mas,int personelSayi) {
+super(ad,soyad,mas);
+this.personelSayi = personelSayi;
+}
+public void bilgilerigoster() {
+	super.bilgiler();
+	System.out.println("\nPersonel sayisi: "+this.personelSayi);
+
+}
+public void zam(int zam) {
+	System.out.println("Zam mikatri: "+zam);
+	System.out.println("yeni mas:"+(getMas()+zam) );
+}
+}

@@ -1,0 +1,9 @@
+package deneme;
+
+import java.awt.Adjustable;
+
+public class yonetici extends calisan {
+	public yonetici(String ad,String soyadString,int mas) {
+		super(ad,soyad,mas);
+	}
+}

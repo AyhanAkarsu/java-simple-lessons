@@ -1,0 +1,12 @@
+package deneme;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+yonetici Y = new yonetici("Ayhan","Akarsu",2020030,20);
+
+
+	}
+
+}

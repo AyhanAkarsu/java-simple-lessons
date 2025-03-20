@@ -1,0 +1,11 @@
+package deneme;
+
+public class main {
+
+	public static void main(String[] args) {
+	yonetici Yonetici = new yonetici("Ayhan","Akarsu",30000);
+	Yonetici.bilgiler();
+
+	}
+
+}

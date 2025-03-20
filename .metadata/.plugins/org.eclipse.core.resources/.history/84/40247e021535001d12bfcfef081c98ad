@@ -1,0 +1,7 @@
+package deneme;
+
+public class yonetici extends calisan{
+public yonetici(String ad,String soyad,int mas) {
+super(ad,soyad,mas);	
+}
+}

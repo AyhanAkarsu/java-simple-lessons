@@ -1,0 +1,45 @@
+package deneme;
+
+public class hayvan {
+private String ad;
+private int bsayi;
+private String cins;
+
+public hayvan(String ad,Integer bsayi,String cins) {
+	this.setAd(ad);
+	this.setBsayi(bsayi);
+	this.setCins(cins);
+}
+
+public String getAd() {
+	return ad;
+}
+
+public void setAd(String ad) {
+	this.ad = ad;
+}
+
+public int getBsayi() {
+	return bsayi;
+}
+
+public void setBsayi(int bsayi) {
+	this.bsayi = bsayi;
+}
+
+public String getCins() {
+	return cins;
+}
+
+public void setCins(String cins) {
+	this.cins = cins;
+}
+public void hareket(int koss) {
+	System.out.println("Hayvan "+koss+" kosuyor");
+}
+
+
+
+
+
+}

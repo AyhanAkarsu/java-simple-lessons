@@ -1,0 +1,17 @@
+package deneme;
+
+public class main {
+
+	public static void main(String[] args) {
+kasa Kasa = new kasa("XyZ200","MSI",4000);		
+anakart Anakart = new anakart("ASUS","3000","Kali linux");
+reserotion Resortion = new reserotion(6400,4000);
+monitor Monitor = new monitor(6000,"Lenovo",32, Resortion);
+Pc bilgisyar = new Pc(Kasa, Anakart, Monitor);
+bilgisyar.getMonitor().monitorac();
+bilgisyar.getKasa().kasaac();
+
+
+	}
+
+}
